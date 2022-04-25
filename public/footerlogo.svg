@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151" height="58" viewBox="0 0 151 58">
+  <g id="Group_2" data-name="Group 2" transform="translate(-70 -13)">
+    <g id="Group_1" data-name="Group 1" transform="translate(23 -1)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="51" height="53" transform="translate(47 19)" fill="#f60"/>
+      <text id="F" transform="translate(62 61)" fill="#fff" font-size="44" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">F</tspan></text>
+    </g>
+    <text id="Group" transform="translate(129 56)" fill="#fff" font-size="33" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Group</tspan></text>
+  </g>
+</svg>
