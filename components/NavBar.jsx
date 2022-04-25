@@ -21,22 +21,22 @@ const NavBar = () => {
                     </section>
                     <section id="headerSectionTwo" className="col headerSectionTwo font-size-large">
                         <nav>
-                            <div class="container-fluid">
-                                <ul class="navbar-nav font-size-larger font-weight-lighter">
+                            <div className="container-fluid">
+                                <ul className="navbar-nav font-size-larger font-weight-lighter">
                                     <li id="closeNavigation" onClick={closeNav}>
                                         &times;
                                     </li>
-                                    <li class="nav-item">
+                                    <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link display-6">About</a>
                                         </Link>
                                     </li>     
-                                    <li class="nav-item">
+                                    <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link display-6">Popular</a>
                                         </Link>
                                     </li>
-                                    <li class="nav-item">
+                                    <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link display-6">Blog</a>
                                         </Link>
@@ -68,7 +68,7 @@ const NavBar = () => {
                                             </Link>
                                         </li>
                                     </div>
-                                    <li class="nav-item">
+                                    <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link joinUsMain">Join us</a>
                                         </Link>
