@@ -393,6 +393,29 @@ h1::after{
     margin: 2% auto;
     display: table;
   }
+  .topDivision{
+    padding-right: 0;
+    padding-left: 5% !important;
+  }
+  body::-webkit-scrollbar{
+    width: 0;
+    display: none;
+  }
+  body::-webkit-scrollbar-track{
+    border-radius: 0;
+    background: #ffe5d4;
+    display: none;
+  }
+  body::-webkit-scrollbar-thumb{
+    background: #ff6600;
+    height: 10px !important;
+    border-radius: 5px;
+    display: none;
+  }
+  body::-webkit-scrollbar-thumb:hover{
+    background: #b04600;
+    display: none;
+  }
 }
 @media screen and (max-width: 575px) {
   .underTopNotify{
@@ -400,5 +423,9 @@ h1::after{
   }
   .underTopNotify section{
     margin: 2% 0;
+  }
+  .topImageContainer img{
+    width: 100%;
+    margin-left: -0%;
   }
 }

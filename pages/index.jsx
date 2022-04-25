@@ -3,14 +3,14 @@ import Image from "next/image";
 const Home = () => {
   return ( 
     <div className="container-fluid p-0">
-      <div className="container-fluid p-0 justify-content-around row">
-        <section className="col-12 col-xxl-9 col-xl-9 col-lg-8 col-md-12 col-sm-12">
+      <div className="container-fluid my-0 col-xl-12 col-lg-12 col-md-12 col-sm-12 col col-12 p-0 justify-content-around row">
+        <section className="col-xxl-9 col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12 topDivision justify-content-center">
           <div className="container-fluid row p-0">
             <section className="col-xxl-8 col-xl-12 col-lg-12 col-md-12 col-sm-12 pt-2">
-              <div className="row p-3">
+              <div className="row pt-0">
                 <div>
                   <div className="container-fluid col-lg-12 col-12 row p-0 justify-content-center topDiv">
-                    <section className="col-xl-5 col-lg-5 col-md-5 col-sm-12 text-align-center">
+                    <section className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 text-align-center">
                       <span className="text-white topNotify underlinedHeading">
                         Live Event Tracker 
                         For Upcomings  <br />
@@ -237,10 +237,10 @@ const Home = () => {
               <div className="container-fluid">
                 <div className="row justify-content-center">
                   <div className="col-12 p-3 row celebFamilies">
-                    <section className="col-2 p-3">
+                    <section className="col-xl-2 col-lg-2 col-md-3 col-sm- 12 col-12 p-3 text-align-center">
                       <Image src="/messi.jpeg" alt="Image" className="rounded" width="100%" height="100%" />
                     </section>
-                    <section className="col-10">
+                    <section className="col-xl-10 col-lg-10 col-md-9 col-sm- 12 col-12 p-3">
                       <span className="joinUs">From New York Times</span> <br />
                       <span className="text-white">
                           The famous footballer, and one of the richest, Lionel Messi took
@@ -251,7 +251,7 @@ const Home = () => {
                     </section>
                   </div>
                   <div className="col-12 p-3 row celebFamilies">
-                    <section className="col-2 p-3">
+                    <section className="col-xl-2 col-lg-2 col-md-3 col-sm- 12 col-12 p-3 text-align-center">
                       <Image src="/messi1.jpg" alt="Image" className="rounded" width="100%" height="100%" />
                     </section>
                     <section className="col-10">
@@ -265,7 +265,7 @@ const Home = () => {
                     </section>
                   </div>
                   <div className="col-12 p-3 row celebFamilies">
-                    <section className="col-2 p-3">
+                    <section className="col-xl-2 col-lg-2 col-md-3 col-sm- 12 col-12 p-3 text-align-center">
                       <Image src="/messi.jpeg" alt="Image" className="rounded" width="100%" height="100%" />
                     </section>
                     <section className="col-10">
